@@ -1,7 +1,7 @@
 TwitterOAuth Service Provider for Laravel 4
 ===============
 
-A simple Laravel 4 service provider for including the [TwitterOAuth](https://github.com/tijsverkoyen/TwitterOAuth) library.
+A fork of philo/laravel-twitter which is a simple Laravel 4 service provider for including the [TwitterOAuth](https://github.com/tijsverkoyen/TwitterOAuth) library.
 
 ### Installation
 
@@ -11,15 +11,15 @@ The TwitterOAuth Service Provider can be installed via Composer by requiring the
 {
     "require": {
         "laravel/framework": "4.0.*",
-        "philo/laravel-twitter": "dev-master"
+        "tvmaly/laravel-twitter": "stable"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
 ```
 
 Next you will need to publish the package config:
 
-`php artisan config:publish --path=philo/twitter philo/twitter`
+`php artisan config:publish --path=philo/twitter tvmaly/twitter`
 
 You can setup your **CONSUMER_KEY** and **CONSUMER_SECRET** inside `app/config/packages/philo/twitter/config.php`.
 

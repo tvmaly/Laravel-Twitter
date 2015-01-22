@@ -4,6 +4,7 @@
 	"keywords": ["laravel","laravel-4", "twitter"],
 	"homepage": "https://github.com/tvmaly/Laravel-Twitter",
 	"license": "BSD",
+        "version": "1.0.0",
 	"authors": [
 		{
 			"name": "Tyson Maly",
